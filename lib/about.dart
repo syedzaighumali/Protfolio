@@ -42,7 +42,7 @@ class About extends StatelessWidget {
             const SizedBox(height: 20),
             Expanded(
               child: Container(
-                height: 200,
+                height: 201,
                 width: 500,
                 child:   const Text(
                    "I’m a dedicated and passionate Flutter app developer"
