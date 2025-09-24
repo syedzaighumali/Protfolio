@@ -1,0 +1,37 @@
+name: portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+  http: ^0.13.6
+  flutter_native_splash: ^2.3.10
+  lottie: ^2.7.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# ✅ Place flutter_native_splash here (at the root, not under flutter:)
+flutter_native_splash:
+  color: "#010E18"
+  image: assets/images/logo.jpg
+  android: true
+  ios: true
+  web: true  # or true if you want splash for web
